@@ -1,7 +1,7 @@
 public with sharing class SimplePrint implements Schedulable {
     private String msg;
     private Boolean newSchedule;
-    
+
     public SimplePrint(String message, Boolean newSchedule) {
         this.msg = message;
         this.newSchedule = newSchedule;
